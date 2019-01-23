@@ -11,7 +11,18 @@ header,nav, section,article,footer,figure
 nav ul {margin:0; padding:0;}
 nav ul li {display:inline; margin:5px;}
 h1{
-    color:darkgreen;
+    color:white;
+}
+.mytable1{
+    border: 1px solid black;
+  border-collapse: collapse;
+  width:1550px;
+  height:300px;
+}
+.mytable2, th{
+    border: 1px solid black;
+  border-collapse: collapse;
+  text-align: center;
 }
 </style>
 </head>
@@ -34,7 +45,7 @@ h1{
 
 	<section>
 
-            <h1> My Profile </h1>
+            <h1 style=color:seagreen> My profile</h1>
            
 
 		<article style=background-image:url("Images/cts.jpg")>
@@ -53,49 +64,43 @@ h1{
                     </td>
                     <td>
                             
-                            <h1> Educational Qualification</h1>
-                            <h2>
-                                X:
-                            </h2>
-                            
-                            <h3>
-                            <pre>
-    School    : St. mary's School
-    CGPA      : 8.0
-                            </pre>
-                            </h3>
-                           
-                            <h2>
-                                XII:
-                            </h2>
-                           
-                            <h3>
-                            <pre>
-    School    : St. mary's School
-    Percentage: 71
-                            </pre>
-                            </h3>
-                            <h2>
-                                BE:
-                            </h2>
-                            <h3>
-                            <pre>
-    University: RGPV
-    College   : LNCT 
-    CGPA      : 7.31
-                            </pre>
-                            </h3>
-                            <h2>
-                                Technical Skills:
-                            </h2>
-                               
-                            <h3>
-                            <pre>
-    Java
-    sql
-        
-                            </pre>
-                            </h3>                            
+                            <h1 style=color:seagreen> Educational Qualifications:</h1>
+                            <table class="mytable1">
+                                    <tr>
+                                      <th>University</th>
+                                      <th>Board</th>
+                                      <th>Course</th> 
+                                      <th>Year of passing</th>
+                                      <th>CGPA/Percentage</th>
+                                    </tr>
+                                    <tr>
+                                            <td class="mytable2">St. mary's school</td>
+                                            <td class="mytable2">CBSE</td>
+                                            <td class="mytable2">10th</td>
+                                            <td class="mytable2">2013</td>
+                                            <td class="mytable2">8.0</td>
+                                          </tr>
+                                    <tr>
+                                      <td class="mytable2">St. mary's school</td>
+                                      <td class="mytable2">CBSE</td>
+                                      <td class="mytable2">12th</td>
+                                      <td class="mytable2">2015</td>
+                                      <td class="mytable2">71%</td>
+                                    </tr>
+                                    <tr>
+                                            <td class="mytable2">LNCT</td>
+                                            <td class="mytable2">RGPV</td>
+                                            <td class="mytable2">BE</td>
+                                            <td class="mytable2">2019</td>
+                                            <td class="mytable2">73.1%</td>
+                                    </tr>
+                                  
+                                  </table>  
+                                  <article>
+                                  <h3 style=background-color:yellow>Tecnical skills:</h3> 
+                                  <p>Java, sql</p> 
+                                  </article>   
+                                      
                         </td>
                 </tr>
             </table>
@@ -108,7 +113,7 @@ h1{
 	</section>
 
 	<footer>
-		<p>&copy; 2019  Design and developed by Sanjeevni Pal</p>
+		<p>&copy; 2019  designed and developed by Sanjeevni Pal</p>
 	</footer>
 
 </body>
